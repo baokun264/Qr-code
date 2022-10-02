@@ -1,0 +1,50 @@
+body{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size:15px;
+}
+
+
+.back-ground{
+    background-color: #f0f0f0;
+    min-height: 1000vh;
+    width: 100%;
+    z-index: 2;
+    text-align:center;
+    
+}
+.wrapper{
+    background-color:#d5e1ef;
+    position: absolute;
+    height:500px;
+    width: 80%;
+    z-index: 3;
+    display: inline-block; 
+    margin-left: -500px;
+    margin-top:200px;
+    box-shadow: 5px 10px #c3c0c0;
+}
+.content{
+    background-color:aliceblue;
+    height: initial  ;
+    width:190px ;
+    border-radius: 15px;
+    position:absolute;
+    display: inline-block;
+    margin: 100px 0 0 -100px;
+}
+.image{
+    margin: 10px;
+    margin-top: 15px;
+}
+.head-text{
+    font-weight: 700;
+    margin: 0 6px 0 6px;
+    margin-bottom: 10px;
+}
+.body-text{
+    font-weight: 400;
+    margin: 0 7px 0 7px;
+    font-size:14px;
+    padding-bottom: 8px;;
+}
